@@ -17,7 +17,8 @@ int main(int argc, char *argv[])
     return 2;
   
   createCMakeLists(&fs, argv[1]);
-  std::cout << fs.sourcePath << std::endl;
   createDefaultMain(&fs);  
+  
+  std::cout << "Successfully created project " << argv[1] << std::endl;
   return 0;
 }
