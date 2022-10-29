@@ -1,7 +1,7 @@
 # Cubinit
 Cubidev's project creation tool for c++
 
-Obs: Please note that I used some Linux Especific Librarys, so do not expect this to work with windows with some modification.
+Obs: Please note that I used some Linux Especific Librarys, so do not expect this to work with windows without some modification.
 
 Usage:
 
