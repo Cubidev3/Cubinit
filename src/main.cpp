@@ -20,5 +20,6 @@ int main(int argc, char *argv[])
   createDefaultMain(&fs);  
   
   std::cout << "Successfully created project " << argv[1] << std::endl;
+  delete (fs.sourcePath);
   return 0;
 }
