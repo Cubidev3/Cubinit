@@ -13,3 +13,9 @@ This will create:
 - CMakeLists.txt file at project folder ([Project Name]/CMakeLists.txt)
 - Hello World program at source folder ([Project Name]/src/main.cpp)
 
+Structure:
+[Project Name] /
+    | CMakeLists.txt
+    | src /
+        | main.cpp
+        
